@@ -26,6 +26,14 @@
 	width: 100%;
 }
 
+#youtube-channel{
+	border-top-width: 0;
+}
+
+#youtube-videos ul li{
+	margin: 0 auto;
+}
+
 
 
 @media screen and (min-width: 1280px) {
