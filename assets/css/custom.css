@@ -14,7 +14,7 @@
 }
 
 
-#youtube-videos section > .inner > p{
+#youtube-videos section.yb-frame > p{
 	font-size: .8rem;
 	margin: 0;
 }
