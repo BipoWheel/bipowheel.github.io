@@ -4,12 +4,13 @@
 
 #youtube-videos section{
 	padding: 2rem;
-
 }
 
 
 #youtube-videos section > .inner{
 	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -26,20 +27,19 @@
 }
 
 
-/* two first buttons */
-ul.actions.stacked{
-	flex-direction: row;
-}
-
-ul.actions.stacked li{
-	padding: 0 0 0 1rem;
-}
-
-
 
 @media screen and (min-width: 1280px) {
 	#youtube-videos section{
 		padding: 2rem;
 		min-height: 17rem !important;
+	}
+
+	/* two first buttons */
+	ul.actions.stacked{
+		flex-direction: row;
+	}
+
+	ul.actions.stacked li{
+		padding: 0 0 0 1rem;
 	}
 }
