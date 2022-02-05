@@ -34,6 +34,10 @@
 	margin: 0 auto;
 }
 
+#youtube-channel p{
+	margin-bottom: .5rem;
+}
+
 
 
 @media screen and (min-width: 1280px) {
