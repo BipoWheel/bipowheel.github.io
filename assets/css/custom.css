@@ -1,0 +1,45 @@
+#youtube-videos{
+	width:90%;
+}
+
+#youtube-videos section{
+	padding: 2rem;
+
+}
+
+
+#youtube-videos section > .inner{
+	height: 100%;
+}
+
+
+#youtube-videos section > .inner > p{
+	font-size: .8rem;
+	margin: 0;
+}
+
+
+
+#youtube-videos section > .inner > iframe{
+	height: 100%;
+	width: 100%;
+}
+
+
+/* two first buttons */
+ul.actions.stacked{
+	flex-direction: row;
+}
+
+ul.actions.stacked li{
+	padding: 0 0 0 1rem;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+	#youtube-videos section{
+		padding: 2rem;
+		min-height: 17rem !important;
+	}
+}
