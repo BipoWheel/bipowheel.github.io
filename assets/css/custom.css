@@ -1,6 +1,3 @@
-#youtube-videos{
-	padding-bottom: 0;
-}
 
 #youtube-videos section{
 	padding: 2rem;
@@ -41,6 +38,11 @@
 
 
 @media screen and (min-width: 1280px) {
+
+	#youtube-videos{
+		padding-bottom: 0;
+		max-width: 80%;
+	}
 	#youtube-videos section{
 		padding: 2rem;
 		min-height: 20rem !important;
