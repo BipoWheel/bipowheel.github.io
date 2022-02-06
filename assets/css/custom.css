@@ -22,8 +22,8 @@
 
 
 #youtube-videos section.yb-frame p{
-	font-size: .8rem;
-	margin: 0;
+	font-size: .8rem !important;
+	margin: 0 !important;
 }
 
 #youtube-channel{
