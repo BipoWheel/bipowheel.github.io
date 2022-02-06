@@ -43,7 +43,7 @@
 @media screen and (min-width: 1280px) {
 	#youtube-videos section{
 		padding: 2rem;
-		min-height: 17rem !important;
+		min-height: 20rem !important;
 	}
 
 	/* two first buttons */
