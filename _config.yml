@@ -1,0 +1,19 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Bipo Wheel
+tagline:          "BipoWHeel's Project"
+description:      'Site internet de Bipo Wheel'
+url:              https://bipowheel.github.io
+
+
+author:
+  name:           'Bipo Wheel'
+  url:            'jasonlambert.github.io'
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
