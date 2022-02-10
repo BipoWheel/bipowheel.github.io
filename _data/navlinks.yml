@@ -2,9 +2,24 @@ links:
 
 - title: Accueil
   url: /
+  cat: 1
 
 - title: Vidéos
-  url: "bipowheel.github.io/#youtube-videos"
+  url: "#youtube-videos"
+  cat: 1
 
 - title: Blog
   url: /blog
+  cat: 1
+
+- title: Accueil
+  url: /
+  cat: 2
+
+- title: Vidéos
+  url: "bipowheel.github.io/#youtube-videos"
+  cat: 2
+
+- title: Blog
+  url: /blog
+  cat: 2
