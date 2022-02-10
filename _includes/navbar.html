@@ -1,10 +1,12 @@
 <nav id="navbar">
 	{% if page.url == "/blog"}
-		{% for item in site.data.navlinks.links | where: "cat","2" %}
+		{% assign links = site.data.navlinks.links | where: "cat","2" %}
+		{% for item in links}
       		<a href="{{ site.url }}{{ item.url }}" class="{% if item.url == page.url %}active{% endif %} smooth-scroll-middle">{{ item.title }}</a>
    		{% endfor %}
    	{% else %}
-   		{% for item in site.data.navlinks.links | where: "cat","1" %}
+   		{% assign links = site.data.navlinks.links | where: "cat","1" %}
+		{% for item in links}
       		<a href="{{ site.url }}{{ item.url }}" class="{% if item.url == page.url %}active{% endif %} smooth-scroll-middle">{{ item.title }}</a>
    		{% endfor %}
    {% endif %}
