@@ -9,7 +9,7 @@ links:
   cat: 1
 
 - title: Blog
-  url: /blog.html
+  url: /blog
   cat: 1
 
 - title: Accueil
@@ -21,5 +21,5 @@ links:
   cat: 2
 
 - title: Blog
-  url: /blog.html
+  url: /blog
   cat: 2
