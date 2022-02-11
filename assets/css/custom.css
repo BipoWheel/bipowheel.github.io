@@ -129,12 +129,12 @@ END NAVBAR
 
 
 
-#youtube-videos section{
+#videos-youtube section{
 	padding: 2rem;
 }
 
 
-#youtube-videos section > .inner{
+#videos-youtube section > .inner{
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -142,13 +142,13 @@ END NAVBAR
 
 
 
-#youtube-videos section > .inner > iframe{
+#videos-youtube section > .inner > iframe{
 	height: 100%;
 	width: 100%;
 }
 
 
-#youtube-videos section.yb-frame p{
+#videos-youtube section.yb-frame p{
 	font-size: .8rem !important;
 	margin: 0 !important;
 }
@@ -169,11 +169,11 @@ END NAVBAR
 
 @media screen and (min-width: 1280px) {
 
-	#youtube-videos{
+	#videos-youtube{
 		padding-bottom: 0;
 		max-width: 80%;
 	}
-	#youtube-videos section{
+	#videos-youtube section{
 		padding: 2rem;
 		min-height: 20rem !important;
 	}
