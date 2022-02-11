@@ -5,7 +5,7 @@ links:
   cat: 1
 
 - title: Vidéos
-  url: "#youtube-videos"
+  url: "#videos-youtube"
   cat: 1
 
 - title: Blog
@@ -17,7 +17,7 @@ links:
   cat: 2
 
 - title: Vidéos
-  url: "/#youtube-videos"
+  url: "/#videos-youtube"
   cat: 2
 
 - title: Blog
