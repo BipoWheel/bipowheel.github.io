@@ -2,13 +2,13 @@
    {% if page.url == "/" %}
       {% for item in site.data.navlinks.links %}
          {% if item.cat == 1 %}
-            <a href="{{ item.url }}" class="{% if item.url == page.url %}active{% endif %} smooth-scroll-middle">{{ item.title }}</a>
+            <a href="{{site.url}}{{ item.url }}" class="{% if item.url == page.url %}active{% endif %} smooth-scroll-middle">{{ item.title }}</a>
          {% endif %}
       {% endfor %}
    {% else %}
          {% for item in site.data.navlinks.links %}
             {% if item.cat == 2 %}
-               <a href="{{ item.url }}" class="{% if item.url == page.url %}active{% endif %} smooth-scroll-middle">{{ item.title }}</a>
+               <a href="{{site.url}}{{ item.url }}" class="{% if item.url == page.url %}active{% endif %} smooth-scroll-middle">{{ item.title }}</a>
             {% endif %}
          {% endfor %}
    {% endif %}
