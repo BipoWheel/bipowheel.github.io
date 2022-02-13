@@ -1,3 +1,10 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lexend Deca", Helvetica, sans-serif;
+}
+
+
+
+
 /****** 
 NAVBAR
 ******/
@@ -129,12 +136,12 @@ END NAVBAR
 
 
 
-#youtube-videos section{
+#videos-youtube section{
 	padding: 2rem;
 }
 
 
-#youtube-videos section > .inner{
+#videos-youtube section > .inner{
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -142,13 +149,13 @@ END NAVBAR
 
 
 
-#youtube-videos section > .inner > iframe{
+#videos-youtube section > .inner > iframe{
 	height: 100%;
 	width: 100%;
 }
 
 
-#youtube-videos section.yb-frame p{
+#videos-youtube section.yb-frame p{
 	font-size: .8rem !important;
 	margin: 0 !important;
 }
@@ -169,11 +176,11 @@ END NAVBAR
 
 @media screen and (min-width: 1280px) {
 
-	#youtube-videos{
+	#videos-youtube{
 		padding-bottom: 0;
 		max-width: 80%;
 	}
-	#youtube-videos section{
+	#videos-youtube section{
 		padding: 2rem;
 		min-height: 20rem !important;
 	}
@@ -186,4 +193,97 @@ END NAVBAR
 	ul.actions.stacked li{
 		padding: 0 0 0 1rem;
 	}
+}
+
+
+
+
+/*****************
+ Blog home
+ ****************/
+
+ #blog #blog-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ #blog #blog-header h1{
+  background-color: rgba(250,250,250,.7);
+  border-radius: 100%;
+  padding: 2rem 2rem 2.5rem 2rem;
+ }
+
+ #blog #posts-list{
+  padding-top: 0;
+ }
+
+
+ #blog #posts-list .inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  border-radius: 15px;
+ }
+
+#blog #posts-list .post-excerpt-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: left;
+  background-image: linear-gradient(to bottom right, #ce93d8, #ab47bc);
+  border-radius: 15px 15px 0 0;
+}
+
+
+ #blog #posts-list h2{
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 0;
+ }
+
+ #blog #posts-list .post-excerpt{
+  text-align: left;
+  margin-top: auto;
+  padding: 1rem;
+ }
+
+ #blog #posts-list .button{
+  margin: 0 auto .5rem auto;
+  overflow: visible;
+ }
+
+  @media screen and (max-width: 1680px) {
+    .wrapper.style1 > .inner {
+      padding: 0 ;
+    }
+}
+
+
+
+/*******************
+One post display
+*******************/
+
+#post{
+  margin:5rem;
+}
+
+#post h1{
+  text-align: center;
+  margin-bottom: 2rem;
 }
