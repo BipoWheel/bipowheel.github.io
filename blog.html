@@ -2,16 +2,30 @@
 title: Le blog Bipo
 layout: blog
 permalink: /blog/
+img: images/header-blog.jpg
 ---
 
-{{ page.url }}
-{{ page.title }}
+<!-- div id="blog" -->
 
-<ul style="list-style-position: inside">
+<div class="header-blog" style="background-image: {{ site.url}}{{ img }}">
+	<h1>Le blog de BipoWheel</h1>
+	<p>Les derniers billets de blog centralisés ci-dessous</p>
+	
+	<ul style="list-style-position: inside">
            {% for post in site.posts %}
              <li>
                <a href="{{ post.url }}">{{ post.title }}</a>
                - {{ post.date | date: "%d %B %Y" }}
              </li>
            {% endfor %}
-</ul>
+	</ul>
+
+
+
+
+
+
+</div>
+
+
+<!-- /div id="blog" -->
