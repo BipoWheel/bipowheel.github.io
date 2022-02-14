@@ -8,6 +8,7 @@ tagline:          "BipoWHeel's Project"
 description:      'Site internet de Bipo Wheel'
 url:              https://bipowheel.github.io
 permalink:        /:title/
+date_format:      "%B %-D, %Y"
 
 
 author:

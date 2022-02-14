@@ -9,7 +9,7 @@ img: images/header-blog.jpg
 
 	<div id="blog-header" style="background-image: url({{ site.url}}/{{ page.img }})">
 
-		<h1>Le blog de BipoWheel</h1>
+		<h1 id="blogTitle">Le blog de BipoWheel</h1>
 
 	</div>
 
@@ -33,3 +33,26 @@ img: images/header-blog.jpg
 	</section>
 
 </div>
+
+
+<script type="text/javascript">
+	// Sticky element on blog home
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var blogTitle = document.getElementById("blogTitle");
+
+// Get the offset position of the navbar
+var sticky = blogTitle.offsetTop;
+
+// Add the sticky class to the blogTitle when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    blogTitle.classList.add("sticky");
+  } else {
+    blogTitle.classList.remove("sticky");
+  }
+} 
+</script>
