@@ -18,7 +18,7 @@ img: images/header-blog.jpg
 		<div class="inner" id="posts-list">
 			<div class="items style1 big onscroll-fade-in">
 				{% for post in site.posts %}
-				<section class="posts-excerpt" id="#{{ post.id | replace:'/bipowheel','bipowheel' }}">
+				<section class="posts-excerpt" id="{{ post.id | replace:'/','' }}">
 					<div class="post-excerpt-title">
 						<h2>{{ post.title }}</h2>
 					</div>
@@ -31,19 +31,5 @@ img: images/header-blog.jpg
 			</div>
 		</div>
 	</section>
-
-
-
-	<div id="post-list">
-		<ul style="list-style-position: inside">
-			{% for post in site.posts %}
-			<li>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-				- {{ post.date | date: "%d %B %Y" }}
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-
 
 </div>
