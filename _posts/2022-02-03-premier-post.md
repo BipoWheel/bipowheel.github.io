@@ -5,8 +5,9 @@ image: assets/images/posts/2022-02-03-premier-post.jpg
 ---
 
 
-![My helpful screenshot]({{post.image}})
+![My helpful screenshot]({{page.image}})
 
+<img src="{{ page.image }}">
 
 # Lorem ipsum dolor sit amet
 
