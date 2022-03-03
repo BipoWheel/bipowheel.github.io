@@ -47,10 +47,12 @@ img: assets/images/header-blog.jpg
 			<div class="items style3 big onscroll-fade-in">
 				{% for post in site.posts %}
 				<section class="posts-excerpt" id="{{ post.id | replace:'/','' }}">
-				  <div class="blog-list-hover blog-list-hover-3 post-excerpt-title"><img src="{{ site.url }}/{{post.image}}" alt="{{post.title}}">
+				  <div class="blog-list-hover blog-list-hover-3 post-excerpt-title">
+				  	<p class="post-list-date">- {{ post.date | date: "%m/%d/%Y" }} -</p>
+				  	<img src="{{ site.url }}/{{post.image}}" alt="{{post.title}}">
           			<div class="blog-list-hover-overlay"></div>
           			<div class="blog-list-hover-3-content px-5 py-4">
-          				 <p class="post-list-date">- {{ post.date | date: "%d %B %Y" }} -</p>
+          				 
            				 <h3 class="blog-list-hover-3-title">{{ post.title }}</h3>
            				 <p class="blog-list-hover-3-description">{{post.description}}</p>
            				 <a href="{{ post.url }}" class="button big wide smooth-scroll-middle">Lire le billet complet</a>

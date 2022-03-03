@@ -352,7 +352,6 @@ a#back-home:hover{
 
 #blog .items.style3.big > *{
   width: 100%;
-  color: white;
 }
 /* DEMO 3 ============================== */
 .blog-list-hover {
@@ -449,8 +448,29 @@ a#back-home:hover{
 
 #blog .post-list-date{
   position: absolute;
-  left:1rem;
-  top: 1rem;
+  left:2rem;
+  top: 2rem;
+}
+
+#blog h3{
+  color: #ffffff;
+  text-shadow:
+    0 1px #37393c,
+    -1px 0 #4d4f52,
+    -1px 2px #37393c,
+    -2px 1px #4d4f52,
+    -2px 3px #37393c,
+    -3px 2px #4d4f52,
+    -3px 4px #37393c, 
+    -4px 3px #4d4f52,
+    -4px 5px #37393c,
+    -5px 4px #4d4f52;
+}
+
+#blog p,
+#blog a{
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 
