@@ -469,6 +469,7 @@ a#back-home:hover{
   @media screen and (max-width: 736px) {
    #blog h2{
       font-size:1.2rem;
+      margin-bottom: 0;
     }
   }
 
