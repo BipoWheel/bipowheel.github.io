@@ -1,6 +1,7 @@
 ---
 title: Presentation du site Bipo Wheel
 layout: blog
+image: assets/images/posts/2022-02-03-premier-post.jpg
 ---
 
 
