@@ -231,8 +231,8 @@ END NAVBAR
   z-index: 9999;
 }
 
-.stickyness{
-  opacity:1 !important;
+#back-home.stickyness{
+  opacity:1;
   transition: all .5s ease;
 }
 
