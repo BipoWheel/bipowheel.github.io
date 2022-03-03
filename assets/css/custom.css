@@ -510,15 +510,6 @@ One post display
 }
 
 
-@media screen and (max-width: 699px) {
-  #post > p:first-child{
-    float: none;
-    max-width: 90%;
-    margin: 0 auto 2rem auto;
-  }
-}
-
-
 
 #post > p:first-child{
   float: left;
@@ -534,4 +525,12 @@ height: 100%;
 #post h1{
   text-align: center;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 699px) {
+  #post > p:first-child{
+    float: none;
+    max-width: 90%;
+    margin: 0 auto 2rem auto;
+  }
 }
