@@ -46,7 +46,7 @@ window.onscroll = function() {myFunction()};
 // Get the navbar
 var blogTitle = document.getElementById("blogTitle");
 //Get Home button
-var blogHome = document.getElementById("homeBack");
+var blogHome = document.getElementById("back-home");
 
 // Get the offset position of the navbar
 var sticky = blogTitle.offsetTop;
@@ -55,10 +55,10 @@ var sticky = blogTitle.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     blogTitle.classList.add("sticky");
-    blogHome.classList.add("sticky");
+    blogHome.classList.add("stickyness");
   } else {
     blogTitle.classList.remove("sticky");
-    blogHome.classList.remove("sticky");
+    blogHome.classList.remove("stickyness");
   }
 } 
 </script>

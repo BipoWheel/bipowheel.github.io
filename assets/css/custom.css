@@ -230,7 +230,7 @@ END NAVBAR
   transition: all .5s ease;
 }
 
-#back-home.sticky{
+#back-home.stickyness{
   opacity:1;
   transition: all .5s ease;
 }
