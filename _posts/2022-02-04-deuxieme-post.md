@@ -1,8 +1,8 @@
 ---
 title: "Presentation de l'association Wheeler du Limousin"
 layout: blog
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis..."
-image: assets/images/posts/2022-02-04-deuxieme-post.jpg
+description: "Une association comme sur des roulettes"
+image: assets/images/posts/2021-10-04-deuxieme-post.jpg
 ---
 
 ![page.title]({{site.url}}/{{page.image}})
