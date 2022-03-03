@@ -48,7 +48,7 @@ img: assets/images/header-blog.jpg
 				{% for post in site.posts %}
 				<section class="posts-excerpt" id="{{ post.id | replace:'/','' }}">
 				  <div class="blog-list-hover blog-list-hover-3 post-excerpt-title">
-				  	<p class="post-list-date">- {{ post.date | date: "%m/%d/%Y" }} -</p>
+				  	<p class="post-list-date">- {{ post.date | date: "%d-%m-%Y" }} -</p>
 				  	<img src="{{ site.url }}/{{post.image}}" alt="{{post.title}}">
           			<div class="blog-list-hover-overlay"></div>
           			<div class="blog-list-hover-3-content px-5 py-4">
