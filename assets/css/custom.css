@@ -473,10 +473,13 @@ a#back-home:hover{
   }
 
 @media screen and (max-width:575px){
+  .blog-list-hover-3-content {
+  padding: 0 1rem;
+  }
   #blog .post-list-date{
     font-size: .8rem;
   }
-  #blog button{
+  #blog .button{
     font-size:.5rem;
   }
 }
