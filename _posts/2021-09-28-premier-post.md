@@ -2,7 +2,7 @@
 title: "Presentation du site Bipo Wheel"
 layout: blog
 description: "Qui suis-je ? BipoWheel ?"
-image: assets/images/posts/2022-02-03-premier-post.jpg
+image: assets/images/posts/2021-09-28-premier-post.jpg
 ---
 
 ![page.title]({{site.url}}/{{page.image}})
