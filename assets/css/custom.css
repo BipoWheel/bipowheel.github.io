@@ -232,7 +232,7 @@ END NAVBAR
 }
 
 #back-home.stickyness{
-  opacity:1;
+  opacity:1 !important;
   transition: all .5s ease;
 }
 
