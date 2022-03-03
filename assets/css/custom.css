@@ -234,6 +234,7 @@ END NAVBAR
 #back-home.stickyness{
   opacity:1 !important;
   transition: all .5s ease;
+  z-index: 9999;
 }
 
 /**** sticky ****/
