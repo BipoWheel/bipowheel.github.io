@@ -466,9 +466,18 @@ a#back-home:hover{
   border-radius: 20px;
 }
 
+  @media screen and (max-width: 736px) {
+   #blog h2{
+      font-size:1.2rem;
+    }
+  }
+
 @media screen and (max-width:575px){
   #blog .post-list-date{
     font-size: .8rem;
+  }
+  #blog button{
+    font-size:.5rem;
   }
 }
 
@@ -534,3 +543,4 @@ height: 100%;
     margin: 0 auto 2rem auto;
   }
 }
+
