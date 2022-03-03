@@ -176,7 +176,13 @@ END NAVBAR
 	margin-bottom: .5rem;
 }
 
+@media screen and (min-width: 480px) {
 
+  #videos-youtube section{
+    padding: 2rem;
+    min-height: 17rem !important;
+  }
+}
 
 @media screen and (min-width: 1280px) {
 
@@ -199,13 +205,6 @@ END NAVBAR
 	}
 }
 
-@media screen and (min-width: 560px) {
-
-  #videos-youtube section{
-    padding: 2rem;
-    min-height: 17rem !important;
-  }
-}
 
 
 
