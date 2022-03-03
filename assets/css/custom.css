@@ -182,6 +182,10 @@ END NAVBAR
     padding: 2rem;
     min-height: 17rem !important;
   }
+
+  .items.style1.big > * {
+      width: 100%;
+    }
 }
 
 @media screen and (min-width: 1280px) {
