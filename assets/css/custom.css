@@ -418,6 +418,13 @@ a#back-home:hover{
   transition: all 0.3s;
 }
 
+
+@media screen and (max-width:799px){
+  .blog-list-hover-3 .blog-list-hover-3-description {
+  display: none;
+}
+}
+
 .blog-list-hover-3 img {
   width: 110%;
   top: 50%;
@@ -442,6 +449,7 @@ a#back-home:hover{
   opacity: 1;
   transform: none;
 }
+
 
 .blog-list-hover-3:hover .blog-list-hover-overlay {
   background: rgba(0, 0, 0, 0.8);
@@ -476,6 +484,10 @@ a#back-home:hover{
 
 #blog a{
   background-color: #ffffff;
+}
+
+#blog a.button:hover{
+
 }
 
 
