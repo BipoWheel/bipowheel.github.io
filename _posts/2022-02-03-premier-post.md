@@ -4,7 +4,9 @@ layout: blog
 image: assets/images/posts/2022-02-03-premier-post.jpg
 ---
 
-{{ post.image }}
+
+![My helpful screenshot]({{post.image}})
+
 
 # Lorem ipsum dolor sit amet
 
