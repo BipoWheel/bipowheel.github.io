@@ -237,6 +237,10 @@ END NAVBAR
   z-index: 9999;
 }
 
+#back-home:hover{
+  color:grey;
+}
+
 /**** sticky ****/
 
 .sticky {
