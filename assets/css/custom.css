@@ -421,8 +421,8 @@ a#back-home:hover{
 
 @media screen and (max-width:799px){
   .blog-list-hover-3 .blog-list-hover-3-description {
-  display: none;
-}
+    display: none;
+  }
 }
 
 .blog-list-hover-3 img {
@@ -460,6 +460,10 @@ a#back-home:hover{
   left:2rem;
   top: 2rem;
   z-index: 99;
+  background-color: #fff;
+  color: #222222;
+  padding: .2rem;
+  border-radius: 20px;
 }
 
 #blog h2{
