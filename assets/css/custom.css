@@ -453,9 +453,8 @@ a#back-home:hover{
   top: 2rem;
 }
 
-#blog h3{
+#blog h2{
   color: #ffffff;
-  font-size: 2.25rem;
   text-shadow:
     0 1px #37393c,
     -1px 0 #4d4f52,
