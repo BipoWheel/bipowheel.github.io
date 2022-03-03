@@ -176,17 +176,7 @@ END NAVBAR
 	margin-bottom: .5rem;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1279px) {
-  .items.style1.big > * {
-      width: 100%;
-    }
 
-  #videos-youtube section{
-    padding: 2rem;
-    min-height: 17rem !important;
-  }
-
-}
 
 @media screen and (min-width: 1280px) {
 
@@ -213,6 +203,18 @@ END NAVBAR
 	}
 }
 
+
+@media screen and (min-width: 480px) {
+  .items.style1.big > * {
+      width: 100%;
+    }
+
+  #videos-youtube section{
+    padding: 2rem;
+    min-height: 17rem !important;
+  }
+
+}
 
 
 
