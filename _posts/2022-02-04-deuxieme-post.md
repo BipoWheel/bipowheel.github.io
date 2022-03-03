@@ -1,9 +1,11 @@
 ---
-title: Presentation de l'association Wheeler du Limousin
+title: "Presentation de l'association Wheeler du Limousin"
 layout: blog
 image: assets/images/posts/2022-02-04-deuxieme-post.jpg
 ---
-<div>![page.title]({{site.url}}/{{page.image}})</div>
+<div>
+![page.title]({{site.url}}/{{page.image}})
+</div>
 
 
 # Lorem ipsum dolor sit amet

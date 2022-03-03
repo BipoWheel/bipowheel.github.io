@@ -1,9 +1,11 @@
 ---
-title: Presentation du site Bipo Wheel
+title: "Presentation du site Bipo Wheel"
 layout: blog
 image: assets/images/posts/2022-02-03-premier-post.jpg
 ---
-<div>![page.title]({{site.url}}/{{page.image}})</div>
+<div>
+![page.title]({{site.url}}/{{page.image}})
+</div>
 
 
 # Lorem ipsum dolor sit amet
