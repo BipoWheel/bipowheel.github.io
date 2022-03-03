@@ -161,7 +161,9 @@ END NAVBAR
 
 #videos-youtube section.yb-frame p{
 	font-size: .8rem !important;
-	margin: 0 !important;
+	margin: 0 !important; 
+  font-weight: bold;
+  font-style: italic;
 }
 
 #youtube-channel{
@@ -174,8 +176,6 @@ END NAVBAR
 
 #youtube-channel p{
 	margin-bottom: .5rem;
-  font-weight: bold;
-  font-style: italic;
 }
 
 
