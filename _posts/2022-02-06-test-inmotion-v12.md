@@ -1,11 +1,12 @@
 ---
 title: "Test Inmotion v12"
 layout: blog
+description: "Nous vous le comptions il y a quelques semaines, nous avons assisté à un bien étrange lancement . Est-il possible qu'un société comme Inmotion ait pu laisser fuiter le manuel utilisateur sans le faire exprès?..."
 image: assets/images/posts/2022-02-06-test-inmotion-v12.jpg
 ---
-<div>
+
 ![page.title]({{site.url}}/{{page.image}})
-</div>
+
 
 # La Fuite était-elle organisée par Inmotion?
 

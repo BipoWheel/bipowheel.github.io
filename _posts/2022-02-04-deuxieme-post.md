@@ -1,11 +1,11 @@
 ---
 title: "Presentation de l'association Wheeler du Limousin"
 layout: blog
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis..."
 image: assets/images/posts/2022-02-04-deuxieme-post.jpg
 ---
-<div>
+
 ![page.title]({{site.url}}/{{page.image}})
-</div>
 
 
 # Lorem ipsum dolor sit amet
