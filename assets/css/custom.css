@@ -138,6 +138,7 @@ END NAVBAR
 ******/
 
 
+/* Youtube section */
 
 #videos-youtube section{
 	padding: 2rem;
@@ -198,6 +199,14 @@ END NAVBAR
 	}
 }
 
+@media screen and (min-width: 560px) {
+
+  #videos-youtube section{
+    padding: 2rem;
+    min-height: 17rem !important;
+  }
+}
+
 
 
 
@@ -252,7 +261,7 @@ END NAVBAR
     -2px 1px #4d4f52,
     -2px 3px #37393c,
     -3px 2px #4d4f52,
-    -3px 4px #37393c,
+    -3px 4px #37393c, 
     -4px 3px #4d4f52,
     -4px 5px #37393c,
     -5px 4px #4d4f52;
