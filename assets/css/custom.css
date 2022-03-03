@@ -466,6 +466,12 @@ a#back-home:hover{
   border-radius: 20px;
 }
 
+@media screen and (max-width:575px){
+  #blog .post-list-date{
+    font-size: .8rem;
+  }
+}
+
 #blog h2{
   color: #ffffff;
   text-shadow:
