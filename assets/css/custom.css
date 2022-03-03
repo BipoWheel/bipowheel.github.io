@@ -350,7 +350,9 @@ a#back-home:hover{
 }
 */
 
-
+#blog .style3 > *{
+  width: 100%;
+}
 /* DEMO 3 ============================== */
 .hover {
   overflow: hidden;
