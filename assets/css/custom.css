@@ -462,7 +462,7 @@ a#back-home:hover{
   z-index: 99;
   background-color: #fff;
   color: #222222;
-  padding: .2rem;
+  padding: .2rem .5rem;
   border-radius: 20px;
 }
 
