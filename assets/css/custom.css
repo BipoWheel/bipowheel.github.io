@@ -469,10 +469,13 @@ a#back-home:hover{
     -5px 4px #4d4f52;
 }
 
-#blog p,
-#blog a{
+#blog p{
   color: #ffffff;
-  border-color: #ffffff;
+}
+
+
+#blog a{
+  background-color: #ffffff;
 }
 
 
