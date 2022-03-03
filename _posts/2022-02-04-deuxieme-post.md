@@ -1,6 +1,7 @@
 ---
 title: Presentation de l'association Wheeler du Limousin
 layout: blog
+image: assets/images/posts/2022-02-04-deuxieme-post.jpg
 ---
 
 # Lorem ipsum dolor sit amet

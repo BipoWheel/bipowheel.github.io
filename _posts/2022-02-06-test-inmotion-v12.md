@@ -1,6 +1,7 @@
 ---
 title: Test Inmotion v12
 layout: blog
+image: assets/images/posts/2022-02-06-test-inmotion-v12.jpg
 ---
 
 
