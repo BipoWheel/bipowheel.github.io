@@ -165,7 +165,7 @@ END NAVBAR
 }
 
 #youtube-channel{
-	border-top-width: 0;
+	border-top-width: 1px;
 }
 
 #youtube-channel ul li{
