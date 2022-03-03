@@ -24,7 +24,7 @@ img: assets/images/header-blog.jpg
 					<div class="post-excerpt-title" style="background-image: url({{ site.url }}/{{post.image}})">
 						<h2>{{ post.title }}</h2>
 					</div>
-					<div class="post-excerpt">{{ post.content | markdownify | strip_html | markdownify | truncatewords:75 }}</div>
+					<div class="post-excerpt">{{ post.content | markdownify | strip_html | markdownify | truncatewords:75 | remove_first:page.excerpt}}</div>
 					<a href="{{ post.url }}" class="button big wide smooth-scroll-middle">Lire le billet complet</a>
 					<p>- {{ post.date | date: "%d %B %Y" }} -</p>
 				</section>
