@@ -184,12 +184,12 @@ END NAVBAR
 @media screen and (min-width: 180px) {
   .items.style1.big > * {
       width: 100%;
-      border-width: none;
+      border-width: 0;
     }
 
   #videos-youtube section{
     padding: 2rem;
-    min-height: 17rem !important;
+    min-height: 22rem !important;
   }
 
 }
