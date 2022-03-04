@@ -179,9 +179,10 @@ END NAVBAR
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 180px) {
   .items.style1.big > * {
       width: 100%;
+      border-width: none;
     }
 
   #videos-youtube section{
