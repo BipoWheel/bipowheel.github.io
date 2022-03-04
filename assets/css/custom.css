@@ -151,7 +151,9 @@ END NAVBAR
 	flex-direction: column;
 }
 
-
+#youtube_video_1{
+  max-width: 100%;
+}
 
 #videos-youtube section > .inner > iframe{
 	height: 100%;
